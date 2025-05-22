@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+.profile-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffc8;
+  padding: 2rem;
+}
+
+.profile-card {
+  background: rgba(0, 0, 0, 0.85);
+  border: 2px solid #00ffc8;
+  box-shadow: 0 0 20px #00ffea, 0 0 40px #00ffc8;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00ffc8;
+  box-shadow: 0 0 15px #00ffea;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #00ffc8;
+  text-shadow: 0 0 10px #00ffea;
+}
+
+.profile-info {
+  width: 100%;
+  background: #1e272e;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #c8d6e5;
+  font-size: 1rem;
+  border: 1px solid #576574;
+  box-shadow: inset 0 0 10px #00ffc88f;
+}
+
+.profile-info strong {
+  color: #00ffc8;
+}
+
+.profile-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-actions button {
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(90deg, #00ffc8, #00ffea);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.profile-actions button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #00ffc8, 0 0 25px #00ffea;
+}

@@ -1,0 +1,1 @@
+En la parte para acceder a login, se requiere otro correo que no es del ejemplo es William@pixelon.com, la contraseña es la misma, lo hice así para personalizarlo a mi manera.
